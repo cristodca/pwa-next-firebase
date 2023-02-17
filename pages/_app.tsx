@@ -14,6 +14,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+        <meta content="yes" name="mobile-web-app-capable" />
         <title>Examen Global Programación Móvil</title>
 
         <link rel="manifest" href="/manifest.json" />
